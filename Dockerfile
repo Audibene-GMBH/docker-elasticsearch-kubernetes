@@ -1,4 +1,4 @@
-FROM ghcr.io/audibene-gmbh/docker-elasticsearch:pr-update-elasticsearch
+FROM ghcr.io/audibene-gmbh/docker-elasticsearch:6.8.22
 
 LABEL org.opencontainers.image.authors="pjpires@gmail.com"
 
