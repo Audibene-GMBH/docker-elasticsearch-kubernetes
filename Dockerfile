@@ -1,6 +1,6 @@
-FROM quay.io/pires/docker-elasticsearch:6.4.2
+FROM ghcr.io/audibene-gmbh/docker-elasticsearch:6.8.22
 
-MAINTAINER pjpires@gmail.com
+LABEL org.opencontainers.image.authors="pjpires@gmail.com"
 
 # Override config, otherwise plug-in install will fail
 ADD config /elasticsearch/config
